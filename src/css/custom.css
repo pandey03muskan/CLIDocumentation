@@ -1,0 +1,22 @@
+:root {
+  --ifm-color-primary: #e91e63; /* Pink */
+  --ifm-color-primary-dark: #ad1457;
+  --ifm-color-primary-darker: #880e4f;
+  --ifm-color-primary-darkest: #6a1b9a;
+  --ifm-color-primary-light: #f06292;
+  --ifm-color-primary-lighter: #f48fb1;
+  --ifm-color-primary-lightest: #fce4ec; /* Light Pink */
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #9c27b0; /* Violet */
+  --ifm-color-primary-dark: #7b1fa2;
+  --ifm-color-primary-darker: #6a1b9a;
+  --ifm-color-primary-darkest: #4a148c;
+  --ifm-color-primary-light: #ab47bc;
+  --ifm-color-primary-lighter: #ba68c8;
+  --ifm-color-primary-lightest: #ce93d8; /* Light Violet */
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
